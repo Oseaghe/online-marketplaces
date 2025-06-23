@@ -1,4 +1,4 @@
-package com.codewithmosh.store.entities;
+package com.oseaghe.store.entities;
 
 import jakarta.persistence.*;
 import lombok.*;
@@ -27,7 +27,7 @@ public class Product {
     @Column(name = "price")
     private BigDecimal price;
 
-    @ManyToOne(cascade = CascadeType.PERSIST)
-    @JoinColumn(name = "category_id")
-    private Category category;
+@ManyToOne
+@JoinColumn(name = "category_id")
+private Category category;
 }
