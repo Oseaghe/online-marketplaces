@@ -132,7 +132,7 @@
                 <configuration>
                     <url>jdbc:mysql://localhost:3306/store_api?createDatabaseIfNotExist=true</url>
                     <user>root</user>
-                    <password>OseaghelikesWale1!</password>
+                    <password>#insertpassword</password>
                     <cleanDisabled>false</cleanDisabled>
                 </configuration>
             </plugin>
